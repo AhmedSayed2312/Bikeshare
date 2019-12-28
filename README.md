@@ -1,15 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+27/12/2019
 
 ### Project Title
-Replace the Project Title
+*Bikeshare data digger
 
 ### Description
-Describe what your project is about and what it does
+*It's a project for bikeshare company  that analysis its data and extract the informations and durations and customers.
+*It works by asking questions and you answer need to be yes or no.
 
 ### Files used
-Include the files used
+
++ #bikeshare.py
++ #washington.csv
++ #new_york_city.csv
++ #chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+https://www.geeksforgeeks.org/
+
+https://stackoverflow.com/
 
