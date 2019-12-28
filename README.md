@@ -1,15 +1,32 @@
 ### Date created
-Include the date you created this project and README file.
+27/12/2019
 
 ### Project Title
-Replace the Project Title
 
+Bikeshare Company
+ 
 ### Description
-Describe what your project is about and what it does
+This is a data analyzing project which analyzies data of bikeshare company and extract informations about
+customers,duration,stations..and so on.
+
+the project is easy to use,its provided with user interact system which will help any user to go through the data and 
+
+get what he/she need by just answering yes or no.
 
 ### Files used
-Include the files used
+
+#bikeshare.py
+
+#washington.csv
+
+#new_york_city.csv
+
+#chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+https://www.geeksforgeeks.org/
+
+https://stackoverflow.com/
+
+https://www.w3schoool.com
