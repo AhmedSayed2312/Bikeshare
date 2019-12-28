@@ -17,7 +17,7 @@ def get_filters():
     check_month = ['none','1','2','3','4','5','6']
 
     check_month = map(str, range(6))
-    check_day = map(str, range(31))
+    check_day = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31']
     check_city = ['chicago','washington','new york city','none']
     while True :
        
@@ -115,7 +115,7 @@ def user_stats(df):
         earlist_birth = df['Birth Year'].min()
         recent_birth = df['Birth Year'].max()
         common_birth = df['Birth Year'].mode()[0]
-        print("the count of eatch gender : \n {} \n ".format(type_count,gender_count))
+        print("the count of each gender : \n {} \n ".format(type_count,gender_count))
         print("the earlist year of birth : {} \n ".format(int(earlist_birth)))
         print("the most recent year of birth : {} \n ".format(int(recent_birth)))
         print("the most common year of birth : {} \n ".format(int(common_birth)))
@@ -149,7 +149,7 @@ def display_data(df):
         elif answer2 == 'no':
             break
         else:
-            print("please enter (yes) or (no) ,try again")
+            print("please enter (yes) or (no) ,try again!")
             continue
 def main():
     while True:
